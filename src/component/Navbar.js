@@ -1,24 +1,23 @@
 import React from 'react'
+import Navbar from './component/Navbar'
 
-function Home() {
+function Navbar() {
   return (
     <div>
-       <nav className='navbar'>
+        <nav className='navbar'>
         <p className='headings'>Admin Templete</p>
         
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Employee</a></li>
             <li><a href="#">Desgination</a></li>
+           
         </ul>
 
-        <div className='user-name'>
-            <p>Welcome Shafimuhammad</p>
 
-        </div>
         </nav> 
     </div>
   )
 }
 
-export default Home
+export default Navbar
