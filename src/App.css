@@ -32,49 +32,41 @@ nav ul li a{
 /* loginpage */
 
 .loginpage{
- 
- /* padding-left: 300px; */
  border:1px solid #525151;
  margin: 100px auto;
  width: 50%;
-
-
 }
 .login-textarea{
-  margin-bottom: 30px;
- height: 5vh;
- 
+  margin-bottom: 50px;
+
 }
 .login-section{
-  padding: 30px;
-  margin-left: 100px;
-  
+ display: flex;
+ margin-bottom: 10px;
+ justify-content: center;
+ margin-top: 25px;
+ margin-left: 40px;
+
 }
 .login-heading{
   background-color: #dbc3c3;
   width: 97%;
-  height: 5vh;
   padding: 10px;
 }
 .login-btn{
   display: flex;
   gap: 20px;
-  padding: 30px;
-  margin-left: 50px;
-  
-}
-.login-label{
-  margin-right: 25px;
+ 
 }
 
 .input-box{
  height: 6vh;
  width: 50%;
+ 
 
 }
-.login-checkbox{
-  margin-left: 60px;
-}
+
 .login-password{
   color: rgb(23, 116, 197);
+ 
 }

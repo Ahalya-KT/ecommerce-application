@@ -26,20 +26,23 @@ function Login() {
         <form>
           <div className="login-section">
             <div className="login-textarea">
-              <label className="login-label">email address</label>
-              <input className="input-box" placeholder="sample@123"></input>
+              <p className="login-label">email address</p>
+              <p className="login-label">password</p>
+           
             </div>
 
             <div className="login-textarea">
-              <label className="login-label">password</label>
-              <input className="input-box" placeholder="password"></input>
+             
+              <input className="input-box" placeholder="sample@123"></input>
+              <input className="input-box" placeholder=".........."></input>
               <p className="login-checkbox">Remember</p>
-            </div>
-
-            <div className="login-btn">
+              <div className="login-btn">
               <Button variant="contained">Login</Button>
               <p className="login-password"> You Forgot password</p>
             </div>
+            </div>
+
+            
           </div>
         </form>
       </div> 
