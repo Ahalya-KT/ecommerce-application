@@ -32,9 +32,12 @@ nav ul li a{
 /* loginpage */
 
 .loginpage{
-  margin-top: 100px;
- /* padding-left: 200px; */
- padding-left: 300px;
+ 
+ /* padding-left: 300px; */
+ border:1px solid #525151;
+ margin: 100px auto;
+ width: 50%;
+
 
 }
 .login-textarea{
@@ -44,10 +47,12 @@ nav ul li a{
 }
 .login-section{
   padding: 30px;
+  margin-left: 100px;
+  
 }
 .login-heading{
-  background-color: #b9b3b3;
-  width: 40%;
+  background-color: #dbc3c3;
+  width: 97%;
   height: 5vh;
   padding: 10px;
 }
@@ -58,9 +63,13 @@ nav ul li a{
   margin-left: 50px;
   
 }
+.login-label{
+  margin-right: 25px;
+}
+
 .input-box{
  height: 6vh;
- width: 28%;
+ width: 50%;
 
 }
 .login-checkbox{

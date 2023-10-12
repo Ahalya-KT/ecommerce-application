@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Checkbox } from "@mui/material";
 import React from "react";
 
 function Login() {
@@ -20,30 +20,32 @@ function Login() {
         </ul>
       </nav>
 
-      <div className="loginpage">
+<div className="loginpage">
         <h5 className="login-heading">login</h5>
 
         <form>
           <div className="login-section">
             <div className="login-textarea">
-              <label>email address</label>
+              <label className="login-label">email address</label>
               <input className="input-box" placeholder="sample@123"></input>
             </div>
 
             <div className="login-textarea">
-              <label>password</label>
+              <label className="login-label">password</label>
               <input className="input-box" placeholder="password"></input>
               <p className="login-checkbox">Remember</p>
             </div>
 
             <div className="login-btn">
               <Button variant="contained">Login</Button>
-              <p className="login-password">Forgot password</p>
+              <p className="login-password"> You Forgot password</p>
             </div>
           </div>
         </form>
-      </div>
-    </div>
+      </div> 
+</div>
+      
+   
   );
 }
 
