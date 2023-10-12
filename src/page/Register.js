@@ -26,8 +26,6 @@ function Register() {
                 <div className='register-btn'>
                 <Button variant="contained">Register</Button>
                 </div>
-               
-
             </div>
 
         </div>

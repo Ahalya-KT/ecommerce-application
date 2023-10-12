@@ -67,6 +67,8 @@ nav ul li a{
  margin-bottom: 20px;
  margin-left: 20px;
  padding: 3px;
+ border: 1px solid #c7cbcb;
+ border-radius: 5px;
 }
 .login-checkbox{
   margin-left: 25px;
@@ -86,8 +88,10 @@ nav ul li a{
   background-color:#fff;
  display: flex;
  justify-content: space-between;
- margin-right: 150px;
+ padding-right: 150px;
  border-bottom: 1px solid #cdf2f9;
+ height: 4vh;
+
 }
 
 .navlog  .navlog-ul .navlog-li {
@@ -127,14 +131,62 @@ nav ul li a{
   margin-bottom: 20px;
   margin-left: 20px;
   padding: 3px;
-  border: 1px solid #cdf2f9;
+  border: 1px solid #c7cbcb;
+  border-radius: 5px;
  }
  .register-label{
   margin-bottom: 20px;
   margin-top: 8px;
-   
+
 }
 .register-btn{
   margin-left: 25px;
+}
+/* desigination list */
 
+.desgination-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.designation-inputs{
+ display: flex;
+}
+.designation-heading{
+  padding-left: 40px;
+  margin-top: 50px;
+}
+.table-box{
+  margin: 50px auto;
+}
+.table-row{
+  display: table;
+  width: 80%;
+  margin-left: 60px;
+  padding: 12px 0;
+  /* border-bottom: 1px #070505; */
+}
+.table-cell{
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  padding: 4px;
+ 
+}
+.table-col{
+  display: table;
+  width: 80%;
+  margin-left: 70px;
+  padding: 7px 0;
+  background: #ecf2f4;
+  box-shadow: 0 1px 2px rgb(86, 85, 85);
+}
+/* employee list */
+.employee-list{
+  display: flex;
+  justify-content: space-between;
+}
+.employe-heading{
+  padding-left: 40px;
+  margin-top: 50px;
 }
