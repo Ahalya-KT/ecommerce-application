@@ -29,4 +29,43 @@ nav ul li a{
 .nav ul li :hover{
   color: #fff;
 }
+/* loginpage */
 
+.loginpage{
+  margin-top: 100px;
+ /* padding-left: 200px; */
+ padding-left: 300px;
+
+}
+.login-textarea{
+  margin-bottom: 30px;
+ height: 5vh;
+ 
+}
+.login-section{
+  padding: 30px;
+}
+.login-heading{
+  background-color: #b9b3b3;
+  width: 40%;
+  height: 5vh;
+  padding: 10px;
+}
+.login-btn{
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  margin-left: 50px;
+  
+}
+.input-box{
+ height: 6vh;
+ width: 28%;
+
+}
+.login-checkbox{
+  margin-left: 60px;
+}
+.login-password{
+  color: rgb(23, 116, 197);
+}
