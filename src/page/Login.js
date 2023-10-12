@@ -1,10 +1,11 @@
 import { Button, Checkbox } from "@mui/material";
 import React from "react";
+import NavbarLog from './component/NavbarLog'
 
 function Login() {
   return (
     <div>
-      <nav className="navbar">
+      {/* <nav className="navbar">
         <p className="headings">Admin Templete</p>
 
         <ul>
@@ -18,7 +19,10 @@ function Login() {
             <a href="#">Desgination</a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
+
+      <NavbarLog/>
+      
 
 <div className="loginpage">
         <h5 className="login-heading">login</h5>

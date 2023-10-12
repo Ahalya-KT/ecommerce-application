@@ -1,3 +1,8 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 nav{
   display: flex;
   align-items: center;
@@ -38,15 +43,12 @@ nav ul li a{
 }
 .login-textarea{
   margin-bottom: 50px;
-
 }
 .login-section{
  display: flex;
- margin-bottom: 10px;
  justify-content: center;
  margin-top: 25px;
  margin-left: 40px;
-
 }
 .login-heading{
   background-color: #dbc3c3;
@@ -56,17 +58,25 @@ nav ul li a{
 .login-btn{
   display: flex;
   gap: 20px;
- 
+  padding: 10px;
+  margin-left: 10px;
 }
-
 .input-box{
- height: 6vh;
- width: 50%;
- 
-
+ height: 4vh;
+ width: 60%;
+ margin-bottom: 20px;
+ margin-left: 20px;
 }
-
+.login-checkbox{
+  margin-left: 25px;
+}
 .login-password{
   color: rgb(23, 116, 197);
- 
+  padding-top: 5px;
+}
+.login-label{
+  margin-bottom: 20px;
+  margin-top: 8px;
+  
+  
 }
