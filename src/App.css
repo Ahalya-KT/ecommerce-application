@@ -39,7 +39,7 @@ nav ul li a{
 .loginpage{
  border:1px solid #cdf2f9;
  margin: 100px auto;
- width: 50%;
+ width: 45%;
 }
 .login-textarea{
   margin-bottom: 50px;
@@ -66,6 +66,7 @@ nav ul li a{
  width: 60%;
  margin-bottom: 20px;
  margin-left: 20px;
+ padding: 3px;
 }
 .login-checkbox{
   margin-left: 25px;
@@ -87,9 +88,6 @@ nav ul li a{
  justify-content: space-between;
  margin-right: 150px;
  border-bottom: 1px solid #cdf2f9;
- 
- 
- 
 }
 
 .navlog  .navlog-ul .navlog-li {
@@ -98,9 +96,45 @@ nav ul li a{
 }
 .navlog  .navlog-ul .navlog-li a{
   color: rgb(104, 103, 103);
-  
-
 }
 .navlog-employee{
   margin-left: 150px;
+}
+/* register page */
+
+.registerpage{
+  border:1px solid #cdf2f9;
+  margin: 100px auto;
+  width: 50%;
+ }
+ .register-heading{
+  background-color: #e6ecf3;
+  width: 97%;
+  padding: 10px;
+}
+.register-section{
+  display: flex;
+ justify-content: center;
+ margin-top: 25px;
+ margin-left: 40px;
+}
+.register-textarea{
+  margin-bottom: 50px;
+}
+.inputarea{
+  height: 4vh;
+  width: 60%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 3px;
+  border: 1px solid #cdf2f9;
+ }
+ .register-label{
+  margin-bottom: 20px;
+  margin-top: 8px;
+   
+}
+.register-btn{
+  margin-left: 25px;
+
 }

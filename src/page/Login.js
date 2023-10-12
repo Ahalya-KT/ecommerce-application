@@ -6,21 +6,6 @@ import Navlog from "../component/Navlog";
 function Login() {
   return (
     <div>
-      {/* <nav className="navbar">
-        <p className="headings">Admin Templete</p>
-
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Employee</a>
-          </li>
-          <li>
-            <a href="#">Desgination</a>
-          </li>
-        </ul>
-      </nav> */}
 
      <Navlog/>
 
@@ -35,7 +20,7 @@ function Login() {
             </div>
 
             <div className="login-textarea">
-              <input className="input-box" placeholder="sample@123"></input>
+              <input className="input-box" placeholder="sample@gmail.com"></input>
               <input className="input-box" placeholder=".........."></input>
               <p className="login-checkbox">Remember</p>
               <div className="login-btn">
