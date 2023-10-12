@@ -34,51 +34,25 @@ function Desgination() {
            </div>
         </div>
 
-        <div className='table-box'>
-            <div className='table-row'>
-                <div className='table-cell'>
-                    <p>Sl.NO</p>
-                </div>
-                
-                <div className='table-cell'>
-                    <p>Name</p>
-                </div>
-                
-                <div className='table-cell'>
-                    <p>Action</p>
-                </div>   
-            </div>
+        <table>
+            <tr>
+            <th>name</th>
+             <th>name</th>
+             <th>name</th>
+            </tr>
+   
+   {name &&
+    name.map((post)=>(
+    <tr key={post.id}>
+        <td>{post.title}</td>
+        <td>hello</td>
+        <td>asfsg</td>
+    </tr>
+   ))}
+</table>
 
-            <div className='table-col'>
-                <div className='table-cell'>
-                    <p>likes</p>
-                </div>
-                
-                <div className='table-cell'>
-                    <p>likes</p>
-                </div>
-                
-                <div className='table-cell'>
-                    <p>likes</p>
-                </div>  
-            </div>
 
-            <div className='table-col'>
-                <div className='table-cell'>
-                    {
-                        name && name.map((post)=><div className='table-cell' key={post.id}>{post.title}</div>)
-                    }
-                </div>
-                
-                <div className='table-cell'>
-                    <p>likes</p>
-                </div>
-                
-                <div className='table-cell'>
-                    <p>likes</p>
-                </div>  
-            </div>
-        </div>
+
 
         
     </div>
