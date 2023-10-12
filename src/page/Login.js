@@ -1,6 +1,7 @@
 import { Button, Checkbox } from "@mui/material";
 import React from "react";
-import NavbarLog from './component/NavbarLog'
+import Navlog from "../component/Navlog";
+
 
 function Login() {
   return (
@@ -21,10 +22,9 @@ function Login() {
         </ul>
       </nav> */}
 
-      <NavbarLog/>
-      
+     <Navlog/>
 
-<div className="loginpage">
+      <div className="loginpage">
         <h5 className="login-heading">login</h5>
 
         <form>
@@ -32,27 +32,21 @@ function Login() {
             <div className="login-textarea">
               <p className="login-label">email address</p>
               <p className="login-label">password</p>
-           
             </div>
 
             <div className="login-textarea">
-             
               <input className="input-box" placeholder="sample@123"></input>
               <input className="input-box" placeholder=".........."></input>
               <p className="login-checkbox">Remember</p>
               <div className="login-btn">
-              <Button variant="contained">Login</Button>
-              <p className="login-password"> You Forgot password</p>
+                <Button variant="contained">Login</Button>
+                <p className="login-password"> You Forgot password</p>
+              </div>
             </div>
-            </div>
-
-            
           </div>
         </form>
-      </div> 
-</div>
-      
-   
+      </div>
+    </div>
   );
 }
 

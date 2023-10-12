@@ -37,7 +37,7 @@ nav ul li a{
 /* loginpage */
 
 .loginpage{
- border:1px solid #525151;
+ border:1px solid #cdf2f9;
  margin: 100px auto;
  width: 50%;
 }
@@ -51,7 +51,7 @@ nav ul li a{
  margin-left: 40px;
 }
 .login-heading{
-  background-color: #dbc3c3;
+  background-color: #e6ecf3;
   width: 97%;
   padding: 10px;
 }
@@ -79,4 +79,28 @@ nav ul li a{
   margin-top: 8px;
   
   
+}
+/* navlog */
+.navlog{
+  background-color:#fff;
+ display: flex;
+ justify-content: space-between;
+ margin-right: 150px;
+ border-bottom: 1px solid #cdf2f9;
+ 
+ 
+ 
+}
+
+.navlog  .navlog-ul .navlog-li {
+  display: inline;
+  list-style: none;
+}
+.navlog  .navlog-ul .navlog-li a{
+  color: rgb(104, 103, 103);
+  
+
+}
+.navlog-employee{
+  margin-left: 150px;
 }
