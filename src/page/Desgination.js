@@ -22,15 +22,24 @@ function Desgination() {
   return (
     <div>
         <Navbar/>
+
+
+
+
         <div className='desgination-list'>
+
            <div className='designation-heading'>
-            <h2>Designation List</h2>
+            <h2>Employees List</h2>
+            <button>add New Record</button>
            </div>
+
            <div className='designation-inputs'>
-           {/* <button>search</button>
-           <button>add new class</button> */}
+           <input placeholder="Search"></input>
            </div>
-        </div>
+          
+           </div>
+
+       
 
         <table className='desgination-table'>
             <tr>
@@ -46,7 +55,8 @@ function Desgination() {
         <td>hello</td>
 
         <div className='buttons-btn'>
-        <td><Edit/><Trash2/></td>
+        <td><Edit color='white'/>
+        <Trash2 color='white'/></td>
         </div>
         
     </tr>

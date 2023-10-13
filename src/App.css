@@ -150,23 +150,39 @@ nav ul li a{
 }
 /* desigination list */
 
-.desgination-list{
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .designation-inputs{
  display: flex;
 }
 .designation-heading{
-  padding-left: 40px;
-  margin-top: 50px;
+  padding-left: 60px;
+  margin-top: 20px;
+ display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-right: 50px;
+}
+
+.designation-inputs{
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+ margin-top:10px ;
+}
+.designation-inputs input{
+  padding: 8px;
 }
 .desgination-table{
   border-color: #201f1f;
   width: 50%;
   margin: 0 auto;
  border-collapse: collapse;
+}
+
+.buttons-btn td{
+  display: flex;
+
 }
 
 
@@ -177,17 +193,17 @@ th{
   border-bottom: 1px solid #8b8989;
   background-color: #f2f2f2;
   padding: 8px;
- 
 }
 /* employee table */
 
-.employee-list{
+
+.employe-heading{
+  padding-left: 60px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
-}
-.employe-heading{
-  padding-left: 40px;
-  margin-top: 50px;
+  background-color: #fff;
+  margin-right: 50px;
 }
 .employe-table{
   border-color: #201f1f;
@@ -195,6 +211,18 @@ th{
   margin: 0 auto;
  border-collapse: collapse;
 }
+.employee-inputs{
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+ margin-top:10px ;
+}
+.employee-inputs input{
+  padding: 8px;
+
+}
+
+
 
 
 
