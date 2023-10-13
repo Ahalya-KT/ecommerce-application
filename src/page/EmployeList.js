@@ -7,10 +7,10 @@ function EmployeList() {
     const[employe,setEmploye]=useState([])
 
     useEffect(()=>{
-        axios.get('https://fakestoreapi.com/products')
+        axios.get('http://training.pixbit.in/api/employees',{headers:{"Authorization": 'Bearer ' + "c5JpnSGhU4vB5kd6VwhPiie5nhkGZM9QzkqG8gSJOk1hzxXiUjSMvuj7QvzVQ48bzAbbJ53Yt0pGHf9A"}})
         .then(res=>{
-            console.log(res);
-            setEmploye(res.data)
+            console.log(res.data.data);
+            setEmploye(res.data.data)
         })
         .catch(err =>{
             console.log(err);
@@ -40,19 +40,19 @@ function EmployeList() {
                     <th>Sl.No</th>
                     <th> First Name</th>
                     <th> Last Name</th>
-                    <th>Jion Date</th>
+                    <th>Join Date</th>
                     <th>Date of Birth</th>
                     <th>Gender</th>
                     <th>Designation</th>
                 </tr>
                 {employe && employe.map((post)=>(
                     <tr key={post.id}>
-                        <td>post.title</td>
-                        <td>hello</td>
-                        <td>hgfd</td>
-                        <td>yuii</td>
-                        <td>yuio</td>
-                        <td>yuio</td>
+                        <td>post.first_name</td>
+                        <td>post.last_name</td>
+                        <td>post.join_date</td>
+                        <td>post.date_of_birth</td>
+                        <td>post.gender</td>
+                        <td>post.mobile</td>
                         <td>yuio</td>
                     </tr>
                 ))}
