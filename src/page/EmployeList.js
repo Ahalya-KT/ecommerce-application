@@ -4,18 +4,46 @@ import axios from 'axios'
 
 function EmployeList() {
 
-    const[employe,setEmploye]=useState([])
+    const[employe,setEmploye]=useState([]) 
 
-    useEffect(()=>{
-        axios.get('http://training.pixbit.in/api/employees',{headers:{"Authorization": 'Bearer ' + "asQ1nRbByT8xTRLoqx6cNtiipiramSDHXdQWEhJ2td9DxEz4MEJnBcQaauuKX9qct2GiQKSC91AUWMDb"}})
-        .then(res=>{
-            console.log(res.data.data);
-            setEmploye(res.data.data.data)
-        })
-        .catch(err =>{
-            console.log(err);
-        })
-    })
+    
+
+    useEffect(() => {
+        axios
+          .post("http://training.pixbit.in/api/login", {
+            email: "nidhinnp@gmail.com",
+            password: "12345678Np",
+          })
+          .then((user) => {
+            // console.log(user.data.data.access_token);
+            let token = user.data.data.access_token;
+            axios
+              .get("http://training.pixbit.in/api/designations", {
+                headers: {
+                  Authorization: Bearer ${token},
+                },
+              })
+              .then((res) => {
+                console.log(res);
+                setname(res.data.data.data);
+              })
+              .catch((err) => {
+                console.log(err);
+              });
+          });
+      }, []);
+    // useEffect(()=>{
+    //     axios.get('http://training.pixbit.in/api/employees',{headers:{"Authorization": 'Bearer ' + "asQ1nRbByT8xTRLoqx6cNtiipiramSDHXdQWEhJ2td9DxEz4MEJnBcQaauuKX9qct2GiQKSC91AUWMDb"}})
+    //     .then(res=>{
+    //         console.log(res.data.data);
+    //         setEmploye(res.data.data.data)
+    //     })
+    //     .catch(err =>{
+    //         console.log(err);
+    //     })
+    // })
+
+    
   
   return (
     <div>
