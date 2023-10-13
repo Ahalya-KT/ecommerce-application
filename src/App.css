@@ -185,6 +185,7 @@ nav ul li a{
 .button-btn{
   display: flex;
   background-color: #525151;
+  width: 35%;
 }
 th{
   padding: 8px;

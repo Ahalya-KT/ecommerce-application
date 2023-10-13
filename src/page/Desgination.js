@@ -8,10 +8,10 @@ function Desgination() {
     const[name,setname]=useState([])
 
     useEffect(()=>{
-        axios.get('https://fakestoreapi.com/products')
+        axios.get('http://training.pixbit.in/api/designations',{headers:{'Authorization': 'Bearer ' + "asQ1nRbByT8xTRLoqx6cNtiipiramSDHXdQWEhJ2td9DxEz4MEJnBcQaauuKX9qct2GiQKSC91AUWMDb"}})
         .then(res=>{
             console.log(res);
-            setname(res.data)
+            setname(res.data.data.data)
         })
         .catch(err=>{
             console.log(err);
@@ -51,8 +51,8 @@ function Desgination() {
    {name &&
     name.map((post)=>(
     <tr key={post.id}>
-        <td>{post.title}</td>
-        <td>hello</td>
+        <td>{post.id}</td>
+        <td>{post.name}</td>
 
        
         <td>

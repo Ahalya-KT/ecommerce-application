@@ -1,9 +1,11 @@
 import { Button, Checkbox } from "@mui/material";
 import React from "react";
 import Navlog from "../component/Navlog";
+import { useNavigate } from "react-router-dom";
 
 
 function Login() {
+  const navigate=useNavigate();
   return (
     <div>
 
@@ -24,7 +26,10 @@ function Login() {
               <input className="input-box" placeholder=".........."></input>
               <p className="login-checkbox"> <Checkbox />Remember</p>
               <div className="login-btn">
-                <Button variant="contained">Login</Button>
+                <Button variant="contained" onClick={()=>
+                  {navigate("/home")}}>
+                    Login
+                    </Button>
                 <p className="login-password"> You Forgot password</p>
               </div>
             </div>

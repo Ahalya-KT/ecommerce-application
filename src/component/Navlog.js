@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Navlog() {
   return (
@@ -10,8 +11,8 @@ function Navlog() {
                
             <ul className='navlog-ul'>
                
-               <li className='navlog-li'><a href="">Login</a></li>
-                <li className='navlog-li' ><a href="">Register</a></li>
+               <li className='navlog-li'><Link to="login">Login</Link></li>
+                <li className='navlog-li' ><Link to="Register">Register</Link></li>
     
             </ul>
             </div>
