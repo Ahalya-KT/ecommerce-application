@@ -10,7 +10,7 @@ function EmployeList() {
         axios.get('http://training.pixbit.in/api/employees',{headers:{"Authorization": 'Bearer ' + "c5JpnSGhU4vB5kd6VwhPiie5nhkGZM9QzkqG8gSJOk1hzxXiUjSMvuj7QvzVQ48bzAbbJ53Yt0pGHf9A"}})
         .then(res=>{
             console.log(res.data.data);
-            setEmploye(res.data.data)
+            setEmploye(res.data.data.data)
         })
         .catch(err =>{
             console.log(err);
@@ -47,13 +47,14 @@ function EmployeList() {
                 </tr>
                 {employe && employe.map((post)=>(
                     <tr key={post.id}>
-                        <td>post.first_name</td>
-                        <td>post.last_name</td>
-                        <td>post.join_date</td>
-                        <td>post.date_of_birth</td>
-                        <td>post.gender</td>
-                        <td>post.mobile</td>
-                        <td>yuio</td>
+                        <td>{post.id}</td>
+                        <td>{post.first_name}</td>
+                        <td>{post.second_name}</td>
+                        <td>{post.join_date}</td>
+                        <td>{post.date_of_birth}</td>
+                        <td>{post.gender}</td>
+                        <td>{post.designation_id}</td>
+                       
                     </tr>
                 ))}
             </table>
