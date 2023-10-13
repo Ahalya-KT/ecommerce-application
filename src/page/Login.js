@@ -22,7 +22,7 @@ function Login() {
             <div className="login-textarea">
               <input className="input-box" placeholder="sample@gmail.com"></input>
               <input className="input-box" placeholder=".........."></input>
-              <p className="login-checkbox">Remember</p>
+              <p className="login-checkbox"> <Checkbox />Remember</p>
               <div className="login-btn">
                 <Button variant="contained">Login</Button>
                 <p className="login-password"> You Forgot password</p>

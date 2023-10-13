@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../component/Navbar'
 import axios from 'axios'
-
-
-
+import { Edit, Trash2 } from 'react-feather'
 
 function Desgination() {
 
@@ -34,11 +32,11 @@ function Desgination() {
            </div>
         </div>
 
-        <table>
+        <table className='desgination-table'>
             <tr>
-            <th>name</th>
-             <th>name</th>
-             <th>name</th>
+            <th>Sl.No</th>
+             <th>Name</th>
+             <th>Action</th>
             </tr>
    
    {name &&
@@ -46,7 +44,11 @@ function Desgination() {
     <tr key={post.id}>
         <td>{post.title}</td>
         <td>hello</td>
-        <td>asfsg</td>
+
+        <div className='buttons-btn'>
+        <td><Edit/><Trash2/></td>
+        </div>
+        
     </tr>
    ))}
 </table>

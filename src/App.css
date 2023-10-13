@@ -2,16 +2,17 @@
   padding: 0px;
   margin: 0px;
 }
-
+/* navbar */
 nav{
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 15px;
   background-color: #525151;
 
 }
 .navbar{
   padding-left: 40px;
+  
  
 }
 nav ul li{
@@ -19,8 +20,12 @@ nav ul li{
   list-style: none;
   margin-left: 20px;
  
- 
 }
+.username{
+  color: #b9b3b3;
+  /* margin-left: 200px; */
+}
+
 nav ul li a{
   text-decoration: none;
   color: #b9b3b3;
@@ -61,6 +66,7 @@ nav ul li a{
   padding: 10px;
   margin-left: 10px;
 }
+
 .input-box{
  height: 4vh;
  width: 60%;
@@ -156,32 +162,25 @@ nav ul li a{
   padding-left: 40px;
   margin-top: 50px;
 }
-.table-box{
-  margin: 50px auto;
+.desgination-table{
+  border-color: #201f1f;
+  width: 50%;
+  margin: 0 auto;
+ border-collapse: collapse;
 }
-.table-row{
-  display: table;
-  width: 80%;
-  margin-left: 60px;
-  padding: 12px 0;
-  /* border-bottom: 1px #070505; */
+
+
+th{
+  padding: 8px;
 }
-.table-cell{
-  display: table-cell;
-  width: 30%;
-  text-align: center;
-  padding: 4px;
+ td {
+  border-bottom: 1px solid #8b8989;
+  background-color: #f2f2f2;
+  padding: 8px;
  
 }
-.table-col{
-  display: table;
-  width: 80%;
-  margin-left: 70px;
-  padding: 7px 0;
-  background: #ecf2f4;
-  box-shadow: 0 1px 2px rgb(86, 85, 85);
-}
-/* employee list */
+/* employee table */
+
 .employee-list{
   display: flex;
   justify-content: space-between;
@@ -190,3 +189,12 @@ nav ul li a{
   padding-left: 40px;
   margin-top: 50px;
 }
+.employe-table{
+  border-color: #201f1f;
+  width: 50%;
+  margin: 0 auto;
+ border-collapse: collapse;
+}
+
+
+

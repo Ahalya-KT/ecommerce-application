@@ -11,9 +11,13 @@ function Navbar() {
             <li><a href="#">Home</a></li>
             <li><a href="#">Employee</a></li>
             <li><a href="#">Desgination</a></li>
+
+           
            
         </ul>
-
+        {/* <div className='username'>
+              <p>muhammad shafi</p>
+            </div> */}
 
         </nav> 
     </div>
