@@ -12,9 +12,11 @@ nav{
 }
 .navbar{
   padding-left: 40px;
-  
- 
 }
+/* .username{
+  display: flex;
+  justify-content: end;
+} */
 nav ul li{
   display: inline;
   list-style: none;
@@ -180,12 +182,10 @@ nav ul li a{
  border-collapse: collapse;
 }
 
-.buttons-btn td{
+.button-btn{
   display: flex;
-
+  background-color: #525151;
 }
-
-
 th{
   padding: 8px;
 }
@@ -195,8 +195,6 @@ th{
   padding: 8px;
 }
 /* employee table */
-
-
 .employe-heading{
   padding-left: 60px;
   margin-top: 20px;
@@ -219,7 +217,6 @@ th{
 }
 .employee-inputs input{
   padding: 8px;
-
 }
 
 

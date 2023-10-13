@@ -54,10 +54,17 @@ function Desgination() {
         <td>{post.title}</td>
         <td>hello</td>
 
-        <div className='buttons-btn'>
-        <td><Edit color='white'/>
-        <Trash2 color='white'/></td>
-        </div>
+       
+        <td>
+            <div className='button-btn'>
+
+            <Edit color='white'/>
+        <Trash2 color='white'/>
+            </div>
+
+           
+        </td>
+      
         
     </tr>
    ))}

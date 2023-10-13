@@ -15,9 +15,10 @@ function Navbar() {
            
            
         </ul>
-        {/* <div className='username'>
+        <div className='username'>
               <p>muhammad shafi</p>
-            </div> */}
+              
+            </div>
 
         </nav> 
     </div>
