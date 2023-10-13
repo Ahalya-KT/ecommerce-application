@@ -11,7 +11,7 @@ function Navlog() {
                
             <ul className='navlog-ul'>
                
-               <li className='navlog-li'><Link to="login">Login</Link></li>
+               <li className='navlog-li'><Link to="/">Login</Link></li>
                 <li className='navlog-li' ><Link to="Register">Register</Link></li>
     
             </ul>

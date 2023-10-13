@@ -7,7 +7,7 @@ function EmployeList() {
     const[employe,setEmploye]=useState([])
 
     useEffect(()=>{
-        axios.get('http://training.pixbit.in/api/employees',{headers:{"Authorization": 'Bearer ' + "H8wn5C3EZeq0a21TeNJredXQDSu8z9fs6ItYWkpS4DuzftudSmVahX8xwdm7jL6mDr9OSxupSPdIDpJU"}})
+        axios.get('http://training.pixbit.in/api/employees',{headers:{"Authorization": 'Bearer ' + "asQ1nRbByT8xTRLoqx6cNtiipiramSDHXdQWEhJ2td9DxEz4MEJnBcQaauuKX9qct2GiQKSC91AUWMDb"}})
         .then(res=>{
             console.log(res.data.data);
             setEmploye(res.data.data.data)
